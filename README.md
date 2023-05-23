@@ -1,14 +1,6 @@
 # isodrive# isodrive (configfs)
 
-* `sudo apt install build-essential`
-
-* `git clone https://github.com/nitanmarcel/isodrive`
-
-* `cd isodrive`
-
-* `make`
-
-* `sudo make install` (optional)
+**You need to be in `su` to use the `isodrive` commands**
 
 usage:
 
@@ -29,14 +21,6 @@ mount (as cdrom)
 mount (as read write)
 
 * `sudo isodrive /full/path/to/file.iso 0 0`
-
-## Linux
-* _Has been only tested on Halium based mobile linux, but should work on mainline devices too._
-
-## Android
-
-* _On Android you must be compiled in termux, using clang++_
-* _On Android you might manually need to mount configfs by running: `mount -t configfs configfs /sys/kernel/config`_
 
 ## Os Support
 * _Should support almost every bootable OS images, but for those who don't work or need extra steps, are documented in the [WIKI](https://github.com/nitanmarcel/isodrive/wiki)_
