@@ -41,6 +41,8 @@ mount (as read write)
 ## Os Support
 * _Should support almost every bootable OS images, but for those who don't work or need extra steps, are documented in the [WIKI](https://github.com/nitanmarcel/isodrive/wiki)_
 
+## Source Code
+https://github.com/nitanmarcel/isodrive-magisk
 ## Credits
 
 Inspired by https://github.com/fredldotme/ISODriveUT
